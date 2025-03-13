@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/practice/css/practice.css"
-app_include_js = "assets/practice/js/custom_script.js"
+# app_include_js = "assets/practice/js/custom_script.js"
 # doctype_js = {
 #     "Sales Invoice": "assets/practice/js/custom_script.js"
 # }
@@ -47,7 +47,7 @@ app_include_js = "assets/practice/js/custom_script.js"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"Sales Invoice" : "public/js/custom_script.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
